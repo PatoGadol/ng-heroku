@@ -5,8 +5,6 @@ import { environment } from 'src/environments/environment';
 import { Router } from '@angular/router';
 import { Subject } from 'rxjs';
 
-const BACKEND_URL = environment.apiUrl;
-
 @Injectable({
   providedIn: 'root'
 })
